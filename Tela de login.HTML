@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+body{ font-family: Arial, Helvetica, sans-serif;
+background-image:linear-gradient(45deg, cyan, pink);}
+div{ background-color: rgb(250, 207, 214);
+    position: absolute;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding: 80px;
+border-radius: 15px;
+color: rgb(15, 14, 14);}
+input{ padding: 15px;
+    border: none;
+outline: none;
+font-size: 15px;}
+button{ background-color: blueviolet;
+border: none;
+padding: 15px;
+width: 100%;
+border-radius: 10px;
+color: black;}
+
+    </style>
+</head>
+<body>
+            
+    <div>
+<h1>Login</h1>
+<input type="text" placeholder="Nome">
+<br><br>
+<input type="password" placeholder="Senha">
+<br><br>
+<button>Enviar</button>
+</div>
+<script>
+    window.alert("Seja bem vindo a pagina de login")
+   var nome = window.prompt("Digite seu nome para prosseguirmos.")
+   window.confirm("Esta gostando da pagina " +  nome  + "?" )
+</script>
+</body>
+</html>
