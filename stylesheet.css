@@ -1,0 +1,169 @@
+*{  margin:0;
+    padding: 0;}
+
+body{
+
+background-color: rgba(243, 243, 243, 0.801);
+
+}
+
+.login{
+
+display: flex;
+align-items: center;
+position: relative;
+flex-direction: column;
+top:180px;
+
+}
+
+input{
+    position: center;
+    width: 255px;
+    height: 50px;
+padding: 12px 20px;
+border-radius: 15px;}
+
+el-float{
+    position: relative;
+    padding-top: 13px;
+  }
+  
+  .login input{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    border-radius: 10px;
+  }
+  .login input:focus{
+    border-bottom: 2px solid #000000;
+  }
+  
+  .login input::placeholder{
+    color:transparent;
+  }
+  
+  .login label{
+    pointer-events: none;
+    position: absolute;
+    top: 50px;
+    left: -100;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+  }
+  .login input:required:invalid + label{
+    color: rgb(43, 43, 43);
+  }
+  .login input:focus:required:invalid{
+    border-bottom: 2px solid rgb(75, 75, 75);
+  }
+  .logininput:required:invalid + label:before{
+    content: '*';}
+
+    .login input:focus + label,
+  .login input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #141416;
+  }
+
+
+
+  .senha input{
+    border: 0;
+    border-bottom: 2px solid lightgrey;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    border-radius: 10px;
+  }
+  .senha input:focus{
+    border-bottom: 2px solid #000000;
+  }
+  
+  .senha input::placeholder{
+    color:transparent;
+  }
+  
+  .senha label{
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: -100;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+  }
+  .senha input:required:invalid + label{
+    color: rgb(43, 43, 43);
+  }
+  .senha input:focus:required:invalid{
+    border-bottom: 2px solid rgb(75, 75, 75);
+  }
+  .senhainput:required:invalid + label:before{
+    content: '*';}
+
+    .senha input:focus + label,
+  .senha input:not(:placeholder-shown) + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #02040f;
+  }
+  .senha{
+    display: flex;
+align-items: center;
+position: relative;
+flex-direction: column;
+top:180px;
+  }
+
+
+label{
+
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+    h1{
+
+        color: rgb(34, 34, 34);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .submit input{
+        margin: 0 auto;
+       position: relative;
+       display: block;
+       background-color: #333;
+       color: white;
+       padding: 5px;
+       border-radius: 8px;
+       font-size: 18px;
+       border-color: rgb(20, 20, 22);
+    top:250px;   
+}
+
+
+.submit input:hover{
+
+    background-color: #141416;
+}
+       
+    
+        
+    
+
+      
+
+       
+    

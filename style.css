@@ -1,0 +1,117 @@
+
+ body{
+    background-color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;}
+
+form{
+    display: flex;
+  flex-direction: column;
+}
+
+label{
+    display: flex;
+  flex-direction: column;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#585656}
+
+
+.menu{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transform: translateX(-1%);}
+
+
+
+
+
+    .menu li  ul{
+        background-color:#fff;
+        display:none;
+        
+    }
+
+    
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #585656;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #000000;
+      }
+      
+      .active {
+        background-color: #585656;
+      }
+
+      h2{
+        color:#7272723d;
+        font-size: 25px;
+        margin-bottom: 30px;
+        text-align: center;
+    
+    }
+
+input{
+    padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        border:none;
+        border-color: #e4e4e4;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.185);
+}
+    
+    
+      select{
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        border:none;
+        border-color: #b6b6b6;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.185);
+      }
+      input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+        font-size: 18px;
+      }
+      
+      input[type="submit"]:hover {
+        background-color: #222;}
+
+      
+
+        .form-container{
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
